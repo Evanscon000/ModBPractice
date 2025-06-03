@@ -9,8 +9,7 @@ const NineLine = () => {
                 type = {'text'}
                 placeholder={'Line 1'}
                 name={'Line 1'}
-                aria-label={'Line 1'}
-            />
+                aria-label={'Line 1'}/>
             </div>
 
             <div>
@@ -18,8 +17,7 @@ const NineLine = () => {
                 type={'text'}
                 placeholder={'Line 2'}
                 name={'Line 2'}
-                aria-label={'Line 2'}
-                />
+                aria-label={'Line 2'}/>
             </div>
 
             <div>
@@ -44,6 +42,38 @@ const NineLine = () => {
                     placeholder={'Line 5'}
                     name={'Line 5'}
                     aria-label={'Line 5'}/>
+            </div>
+
+            <div>
+                <input
+                    type={'text'}
+                    placeholder={'Line 6'}
+                    name={'Line 6'}
+                    aria-label={'Line 6'}/>
+            </div>
+
+            <div>
+                <input
+                type={'text'}
+                placeholder={'Line 7'}
+                name={'Line 7'}
+                aria-label={'Line 7'}/>
+            </div>
+
+            <div>
+                <input
+                    type={'text'}
+                    placeholder={'Line 8'}
+                    name={'Line 8'}
+                    aria-label={'Line 8'}/>
+            </div>
+
+            <div>
+                <input
+                    type={'text'}
+                    placeholder={'Line 9'}
+                    name={'Line 9'}
+                    aria-label={'Line 9'}/>
             </div>
 
             <button type={'submit'}>Submit</button>

@@ -25,6 +25,11 @@ describe('Nine Line Input Page', ()=> {
         expect(screen.getByLabelText('Line 3')).toBeVisible()
         expect(screen.getByLabelText('Line 4')).toBeVisible()
         expect(screen.getByLabelText('Line 5')).toBeVisible()
+        expect(screen.getByLabelText('Line 6')).toBeVisible()
+        expect(screen.getByLabelText('Line 7')).toBeVisible()
+        expect(screen.getByLabelText('Line 8')).toBeVisible()
+        expect(screen.getByLabelText('Line 9')).toBeVisible()
+
 
         expect(screen.getByRole('button', {name: /submit/i })).toBeVisible()
         expect(screen.getByRole('button', {name: /reset/i })).toBeVisible()
