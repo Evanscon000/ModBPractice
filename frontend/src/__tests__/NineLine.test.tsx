@@ -8,7 +8,7 @@ import {userEvent} from "@testing-library/user-event";
 
 describe('Nine Line Input Page', ()=> {
     beforeEach(() => {
-        // resets any mock functions between tests so each is fresh.
+        // resets any mock functions between tests so each is fresh (not needed just yet but good practice when mocking).
          vi.clearAllMocks();
         });
 
@@ -21,7 +21,7 @@ describe('Nine Line Input Page', ()=> {
 
         expect(screen.getByRole('heading')).toBeVisible();
 
-        // create a list (array)of input field names so the for...of loop is able to loop.
+        // create a list (array) of input field names so the for...of loop is able to loop.
         const lineNames = ["Line1","Line2","Line3","Line4","Line5","Line6","Line7","Line8","Line9",]
 
         // the actual test portion of the loop

@@ -21,9 +21,9 @@ const NineLine = () => {
     //     // console.log("Updated formData:", formData);
     // }, [formData]);
 
-    // this handleChange is the function that handles the logic behind updating individual fields of text
-    const handleChange = (e:any)=>{
-        const {name, value} = e.target;
+    // handleChange = function that handles the logic behind updating individual fields of text
+    const handleChange = (event:any)=>{
+        const {name, value} = event.target;
         setFormData( prevState => ({...prevState,[name]: value}))
     }
 
@@ -122,7 +122,6 @@ const NineLine = () => {
             </div>
 
             <button type={'submit'}>Submit</button>
-            {/*<button type={'button'} onClick={()=>navigate('/')}>Exit</button>*/}
 
         </div>
 
